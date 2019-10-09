@@ -7,7 +7,105 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rule of Thumb.</title>
 </head>
-<body>
 
+<body>
+    <header class="topBar">
+        <img class="topBar__logo" src="./logo-rule-of-thumb-white.png" alt="Rule of Thumb Logotype in white color">
+        <nav class="navBar">
+            <ul class="nav">
+                <li class="nav__item"><a href="#">Past Trials</a></li>
+                <li class="nav__item"><a href="#">How it Works</a></li>
+                <li class="nav__item"><a href="#">Log In / Sign Up</a></li>
+            </ul>
+        </nav>
+        <span class="icon icon--search">Search Icon</span>
+    </header>
+
+    <main class="hero">
+        <img src="" alt="">
+        <div class="votingCard">
+            <header>
+                <span class="votingCard__tagline">what's...</span>
+                <h3 class="votingCard__title">Pope</h3>
+            </header>
+            <div class="votingCard__content">
+                <p class="votingCard__text">lipsum</p>
+                <a class="moreInfo" href="#">more</a>
+            </div>
+            <form class="votingCard__action">
+                <span class="thumbButton thumbButton--up">
+                    <input type="radio" name="thumbs" value="thumbUp" id="thumbUp" checked>
+                    <label for="thumbUp">Thumb Up</label>
+                </span>
+                <span class="thumbButton thumbButton--up">
+                    <input type="radio" name="thumbs" value="thumbDown" id="thumbDown">
+                    <label for="thumbDown">Thumb Down</label>
+                </span>
+                <button type="submit">Vote Now</button>
+            </form>
+            <div class="votingCard__percentageBar">
+                <span class="icon--thumbUp">l</span>
+                <span class="icon--thumbDown">l</span>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <article class="notice">
+            <h3 class="notice__title">Speak out. Be heard.</h3>
+            <p class="notice__text">lipsum...</p>
+            <span class="notice__dismissButton">x</span>
+        </article>
+        <h3>Votes</h3>
+        <div class="grid">
+            <div class="columns-2">
+                <div class="votingCard">
+                    <header>
+                        <span class="votingCard__tagline">what's...</span>
+                        <h3 class="votingCard__title">Pope</h3>
+                    </header>
+                    <div class="votingCard__content">
+                        <p class="votingCard__text">lipsum</p>
+                        <a class="moreInfo" href="#">more</a>
+                    </div>
+                    <form class="votingCard__action">
+                <span class="thumbButton thumbButton--up">
+                    <input type="radio" name="thumbs" value="thumbUp" id="thumbUp" checked>
+                    <label for="thumbUp">Thumb Up</label>
+                </span>
+                        <span class="thumbButton thumbButton--up">
+                    <input type="radio" name="thumbs" value="thumbDown" id="thumbDown">
+                    <label for="thumbDown">Thumb Down</label>
+                </span>
+                        <button type="submit">Vote Now</button>
+                    </form>
+                    <div class="votingCard__percentageBar">
+                        <span class="icon--thumbUp">l</span>
+                        <span class="icon--thumbDown">l</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="nav--footer">
+                <li class="nav__item"><a href="#">Terms</a></li>
+                <li class="nav__item"><a href="#">Privacy</a></li>
+                <li class="nav__item"><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="followUs">
+                <span>Follow Us</span>
+                <a class="followUs__link" href="#">
+                    <span class="icon-facebook"></span>
+                </a>
+                <a class="followUs__link" href="#">
+                    <span class="icon-twitter"></span>
+                </a>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>
