@@ -1,0 +1,84 @@
+{
+  "characters": [
+    {
+      "_id": "5d9f3864e2abb675917810bd",
+      "index": 0,
+      "isActive": true,
+      "isFeatured": true,
+      "name": "Abigail Bush",
+      "age": 37,
+      "category": "proident",
+      "picture": "http://placehold.it/32x32",
+      "registered": "Sun Feb 07 1993 20:48:49 GMT+0000 (UTC)",
+      "about": "Culpa et culpa ea irure. Reprehenderit cupidatat et pariatur minim. Duis nulla nostrud cupidatat sint mollit nisi sit excepteur mollit ipsum culpa consequat eiusmod. Elit est aliquip proident Lorem dolore. Adipisicing aliquip non ad ullamco et proident ea ea eiusmod ea amet veniam. Do sit magna consectetur officia velit ullamco irure reprehenderit voluptate cupidatat occaecat.",
+      "votes": {
+        "positives": 718,
+        "negatives": 508
+      }
+    },
+    {
+      "_id": "5d9f386448fa04e13c0067f6",
+      "index": 1,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Marla Salas",
+      "age": 32,
+      "category": "proident",
+      "picture": "http://placehold.it/32x32",
+      "registered": "Tue Sep 11 1984 23:29:05 GMT+0000 (UTC)",
+      "about": "Excepteur eiusmod cupidatat nisi nisi sunt esse dolore sit labore sit exercitation. Non aliquip reprehenderit nulla enim incididunt culpa sint sunt aliquip esse laboris. Dolore sit ut pariatur amet velit irure reprehenderit cupidatat enim ad do. Laborum magna Lorem nulla sunt occaecat consequat amet ullamco esse qui anim elit. In aliqua Lorem id quis esse duis velit incididunt aute. Eiusmod irure officia enim tempor esse eiusmod duis non qui eu enim mollit cupidatat.",
+      "votes": {
+        "positives": 941,
+        "negatives": 797
+      }
+    },
+    {
+      "_id": "5d9f38643faa75166f213b70",
+      "index": 2,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Alice Newman",
+      "age": 21,
+      "category": "officia",
+      "picture": "http://placehold.it/32x32",
+      "registered": "Mon May 21 1990 23:30:41 GMT+0000 (UTC)",
+      "about": "Deserunt consectetur aliquip exercitation id exercitation magna dolore Lorem voluptate Lorem nisi esse aliquip. Laboris officia nulla excepteur excepteur qui in anim do aliquip nulla sunt aliquip aliquip. Do commodo minim exercitation non nostrud irure amet eu labore tempor labore. Nisi et elit culpa voluptate aliqua ea incididunt laborum fugiat excepteur cupidatat anim culpa. Incididunt est ea et exercitation reprehenderit dolor ad ex consectetur aute Lorem quis. Nostrud est tempor fugiat aute adipisicing est incididunt ex duis aliquip minim ex ex. Esse quis aute id ea.",
+      "votes": {
+        "positives": 167,
+        "negatives": 189
+      }
+    },
+    {
+      "_id": "5d9f3864217c02d81291e423",
+      "index": 3,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Candice Patrick",
+      "age": 39,
+      "category": "quis",
+      "picture": "http://placehold.it/32x32",
+      "registered": "Tue Jan 02 1973 09:41:04 GMT+0000 (UTC)",
+      "about": "Eiusmod officia non minim nulla fugiat voluptate veniam anim consequat. Et cillum sunt aute incididunt elit consequat anim reprehenderit. Ad do elit ipsum nostrud. Sint duis laborum enim veniam ad.",
+      "votes": {
+        "positives": 353,
+        "negatives": 325
+      }
+    },
+    {
+      "_id": "5d9f386475d5c84f5abe61b9",
+      "index": 4,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Thompson Pearson",
+      "age": 20,
+      "category": "laborum",
+      "picture": "http://placehold.it/32x32",
+      "registered": "Mon Mar 12 1990 01:05:54 GMT+0000 (UTC)",
+      "about": "Duis adipisicing aliqua exercitation mollit fugiat laboris. Sunt ut commodo ea esse culpa ut. Nostrud labore fugiat consectetur laboris deserunt commodo commodo do nostrud ut culpa do amet. Quis reprehenderit amet magna cillum sunt eu consequat exercitation aute ad id sit aliquip veniam. Sunt excepteur ex cupidatat adipisicing laboris exercitation do. Aute et dolor quis sit magna in ad occaecat laboris adipisicing aute consectetur veniam consectetur.",
+      "votes": {
+        "positives": 501,
+        "negatives": 283
+      }
+    }
+  ]
+}
