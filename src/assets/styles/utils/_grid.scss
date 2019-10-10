@@ -1,0 +1,64 @@
+@import "../_variables";
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1024px;
+  margin: auto;
+  &--full {
+    padding-left: 0;
+    padding-right: 0;
+    .row {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  @media screen and (max-width: $vw-medium) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  @media screen and (max-width: $vw-small) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.row{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  @media screen and (max-width: $vw-medium) {
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: $vw-small) {
+    flex-wrap: wrap;
+  }
+}
+.col{
+  box-sizing: border-box;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: unquote((100 / (12 / $i)) + "%");
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 0;
+
+    @media screen and (max-width: $vw-small) {
+      width: 100% !important;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: $vw-small) {
+
+}
+@media screen and (min-width: $vw-medium) {
+}
