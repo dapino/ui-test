@@ -1,0 +1,107 @@
+@import "../variables";
+@import "./button";
+
+.votingCard {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 3em;
+  position: relative;
+  z-index: 1;
+  &__tagline {
+    font-size: .7em;
+    font-weight: $weight-light;
+  }
+
+  &__title {
+    font-size: 2.5em;
+    font-weight: $weight-regular;
+  }
+
+  &__content {
+
+  }
+
+  &__text {
+    font-size: 1em;
+    font-weight: $weight-light;
+  }
+
+  &__action {
+    padding-left: 1em;
+    display: flex;
+  }
+  @media only screen and (max-width: $vw-medium) {
+    box-sizing: border-box;
+    padding: 1em;
+  }
+}
+
+.thumbButton {
+  position: relative;
+  display: block;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-right: 1em;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  input:checked ~ .thumbButton__custom {
+    border: 2px solid white;
+  }
+  img {
+    height: 17px;
+    vertical-align: center;
+  }
+
+  &__custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    &--up{
+      background-color: $primary-color;
+    }
+    &--down{
+      background-color: $secondary-color;
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &--up {
+
+  }
+
+  &--down {
+
+  }
+}
+
+.bgBlurred {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #5b5b5b;
+  filter: blur(50px);
+  -webkit-filter: blur(50px);
+  z-index: -1;
+  opacity: 0.7;
+}
