@@ -1,43 +1,33 @@
 import React from 'react';
 import '../../assets/styles/components/Hero.scss';
+import '../../assets/styles/components/VotingCard.scss';
+import heroBackground from '../../assets/static/pope.jpg'
+import useFetchData from "../../hooks/useFetchData";
+import VotingCard from "../VotingCards/votingCard";
 
-class Header extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+const API = 'http://localhost:3000/characters'
 
-    render() {
-        return (
-            <section className="hero">
-                <img src="" alt=""/>
-                <div className="votingCard">
-                    <header>
-                        <span className="votingCard__tagline">what's...</span>
-                        <h3 className="votingCard__title">Pope</h3>
-                    </header>
-                    <div className="votingCard__content">
-                        <p className="votingCard__text">lipsum</p>
-                        <a className="moreInfo" href="#">more</a>
-                    </div>
-                    <form className="votingCard__action">
-                        <span className="thumbButton thumbButton--up">
-                            <input type="radio" name="thumbs" value="thumbUp" id="thumbUp"/>
-                            <label htmlFor="thumbUp">Thumb Up</label>
-                        </span>
-                        <span className="thumbButton thumbButton--up">
-                            <input type="radio" name="thumbs" value="thumbDown" id="thumbDown"/>
-                            <label htmlFor="thumbDown">Thumb Down</label>
-                        </span>
-                        <button type="submit">Vote Now</button>
-                    </form>
-                    <div className="votingCard__percentageBar">
-                        <span className="icon--thumbUp">l</span>
-                        <span className="icon--thumbDown">l</span>
-                    </div>
+const heroStyle = {
+    backgroundImage: `url(${heroBackground})`
+};
+
+const Header = () => {
+    //TODO: fix repeated useFetchData call in home
+    const charactersData = useFetchData(API);
+    const characters = charactersData.filter(character => character.isFeatured)
+    return (
+        <section className="hero" style={heroStyle}>
+            <div className="container">
+                <div className="row">
+                    {characters.map(item =>
+                        <div className="col col-6">
+                            <VotingCard key={item._id} imageBg={false} {...item}>{item.name}</VotingCard>
+                        </div>
+                    )}
                 </div>
-            </section>
-        );
-    }
-}
+            </div>
+        </section>
+    );
+};
 
 export default Header;
