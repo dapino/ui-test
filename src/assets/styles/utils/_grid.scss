@@ -3,8 +3,10 @@
 .container {
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
   max-width: 1024px;
   margin: auto;
+  box-sizing: border-box;
   &--full {
     padding-left: 0;
     padding-right: 0;
