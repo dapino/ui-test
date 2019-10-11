@@ -1,12 +1,28 @@
-.button {
-  color: aqua;
-  &--primary {
+@import "../variables";
 
-  }
-  &--secondary {
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: .8em;
+  font-weight: $weight-light;
+  padding: .5em 1.2em;
+  cursor: pointer;
 
-  }
-  &--tertiary{
+  &.button {
+    @extend button;
+
+    &--primary {
+
+    }
+
+    &--secondary {
+      border: none;
+      color: white;
+    }
+    &:visited{
+      color: white;
+    }
 
   }
 }
