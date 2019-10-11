@@ -1,0 +1,84 @@
+{
+  "characters": [
+    {
+      "_id": "5d9f3864e2abb675917810bd",
+      "index": 0,
+      "isActive": true,
+      "isFeatured": true,
+      "name": "Pope Francis",
+      "age": 37,
+      "category": "Entertainmnent",
+      "picture": "pope.jpg",
+      "registered": "Sun Feb 07 1993 20:48:49 GMT+0000 (UTC)",
+      "about": "Culpa et culpa ea irure. Reprehenderit cupidatat et pariatur minim.",
+      "votes": {
+        "positives": 718,
+        "negatives": 508
+      }
+    },
+    {
+      "_id": "5d9f386448fa04e13c0067f6",
+      "index": 1,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Kanye West",
+      "age": 32,
+      "category": "Entertainmnent",
+      "picture": "kanye.jpg",
+      "registered": "Tue Sep 11 1984 23:29:05 GMT+0000 (UTC)",
+      "about": "Excepteur eiusmod cupidatat nisi nisi sunt esse dolore sit labore sit exercitation.",
+      "votes": {
+        "positives": 941,
+        "negatives": 797
+      }
+    },
+    {
+      "_id": "5d9f38643faa75166f213b70",
+      "index": 2,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Mark Zuckerberg",
+      "age": 21,
+      "category": "Business",
+      "picture": "mark.jpg",
+      "registered": "Mon May 21 1990 23:30:41 GMT+0000 (UTC)",
+      "about": "Deserunt consectetur aliquip exercitation id exercitation magna dolore Lorem voluptate Lorem nisi esse aliquip.",
+      "votes": {
+        "positives": 167,
+        "negatives": 189
+      }
+    },
+    {
+      "_id": "5d9f3864217c02d81291e423",
+      "index": 3,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Cristina Fenández de Kirchner",
+      "age": 39,
+      "category": "Politics",
+      "picture": "cristina.jpg",
+      "registered": "Tue Jan 02 1973 09:41:04 GMT+0000 (UTC)",
+      "about": "Eiusmod officia non minim nulla fugiat voluptate veniam anim consequat.",
+      "votes": {
+        "positives": 353,
+        "negatives": 325
+      }
+    },
+    {
+      "_id": "5d9f386475d5c84f5abe61b9",
+      "index": 4,
+      "isActive": true,
+      "isFeatured": false,
+      "name": "Malala Yousafzai",
+      "age": 20,
+      "category": "Entertainmnent",
+      "picture": "malala.jpg",
+      "registered": "Mon Mar 12 1990 01:05:54 GMT+0000 (UTC)",
+      "about": "Duis adipisicing aliqua exercitation mollit fugiat laboris.",
+      "votes": {
+        "positives": 501,
+        "negatives": 283
+      }
+    }
+  ]
+}

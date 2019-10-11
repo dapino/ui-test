@@ -1,0 +1,29 @@
+@import "../variables";
+
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: .8em;
+  font-weight: $weight-light;
+  padding: .5em 1.2em;
+  cursor: pointer;
+
+  &.button {
+    @extend button;
+
+    &--primary {
+
+    }
+
+    &--secondary {
+      border: none;
+      color: white;
+    }
+    &:visited{
+      color: white;
+    }
+
+  }
+}
+
